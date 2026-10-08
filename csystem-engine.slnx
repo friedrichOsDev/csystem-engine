@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="sandbox/sandbox.vcxproj" Id="09a355c1-157f-4222-93d1-1f49015ca9af" />
+  <Project Path="csystem-engine/csystem-engine.vcxproj" Id="d75e4961-3729-458e-9f26-61c28ce4ab5d" />
+</Solution>
