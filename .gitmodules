@@ -1,0 +1,3 @@
+[submodule "csystem-engine/vendor/spdlog"]
+	path = csystem-engine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
