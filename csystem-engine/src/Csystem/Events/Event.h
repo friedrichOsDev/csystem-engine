@@ -1,5 +1,6 @@
 #pragma once
 
+#include "cspch.h"
 #include "Csystem/Core.h"
 
 #include <string>
@@ -70,4 +71,5 @@ namespace Csystem {
 	private:
 		Event& m_Event;
 	};
+
 }

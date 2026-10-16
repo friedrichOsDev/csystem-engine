@@ -13,6 +13,14 @@
     <Platform Solution="Dist|x64" Project="x64" />
     <Platform Solution="Release|x64" Project="x64" />
   </Project>
+  <Project Path="csystem-engine\vendor\GLFW\GLFW.vcxproj" Id="154B857C-0182-860D-AA6E-6C109684020F">
+    <BuildType Solution="Debug|x64" Project="Debug" />
+    <BuildType Solution="Dist|x64" Project="Dist" />
+    <BuildType Solution="Release|x64" Project="Release" />
+    <Platform Solution="Debug|x64" Project="x64" />
+    <Platform Solution="Dist|x64" Project="x64" />
+    <Platform Solution="Release|x64" Project="x64" />
+  </Project>
   <Project Path="sandbox\sandbox.vcxproj" Id="145A6C82-8039-EB1D-8951-76F4F5AF517F">
     <BuildType Solution="Debug|x64" Project="Debug" />
     <BuildType Solution="Dist|x64" Project="Dist" />
