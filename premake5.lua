@@ -15,7 +15,10 @@ project "csystem-engine"
 	language "C++"
 	
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
-    	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+    objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+
+	pchheader "cspch.h"
+	pchsource "csystem-engine/src/cspch.cpp"
 
 	files {
 		"%{prj.name}/src/**.h",
