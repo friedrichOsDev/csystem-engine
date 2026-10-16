@@ -9,3 +9,5 @@
 #else
 	#error Csystem Engine only supports Windows!
 #endif // CS_PLATFORM_WINDOWS
+
+#define BIT(x) (1 << x)

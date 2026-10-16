@@ -4,6 +4,9 @@
     <Filter Include="Csystem">
       <UniqueIdentifier>{AD634D3E-1943-CCD9-225B-57B08EB9323B}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Csystem\Events">
+      <UniqueIdentifier>{F18AF26E-DD58-E674-C6EC-569BB259C2D9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Csystem.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Csystem\EntryPoint.h">
       <Filter>Csystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Csystem\Events\ApplicationEvent.h">
+      <Filter>Csystem\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Csystem\Events\Event.h">
+      <Filter>Csystem\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Csystem\Events\KeyEvent.h">
+      <Filter>Csystem\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Csystem\Events\MouseEvent.h">
+      <Filter>Csystem\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Csystem\Log.h">
       <Filter>Csystem</Filter>
