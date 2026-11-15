@@ -37,6 +37,12 @@
     <ClInclude Include="src\Csystem\Events\MouseEvent.h">
       <Filter>Csystem\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\Csystem\Layer.h">
+      <Filter>Csystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Csystem\LayerStack.h">
+      <Filter>Csystem</Filter>
+    </ClInclude>
     <ClInclude Include="src\Csystem\Log.h">
       <Filter>Csystem</Filter>
     </ClInclude>
@@ -50,6 +56,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Csystem\Application.cpp">
+      <Filter>Csystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Csystem\Layer.cpp">
+      <Filter>Csystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Csystem\LayerStack.cpp">
       <Filter>Csystem</Filter>
     </ClCompile>
     <ClCompile Include="src\Csystem\Log.cpp">

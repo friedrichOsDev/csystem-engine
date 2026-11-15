@@ -61,14 +61,17 @@ project "csystem-engine"
 	
 	filter "configurations:Debug"
 		defines "CS_DEBUG"
+		buildoptions "/MDd"
 		symbols "On"
 
 	filter "configurations:Release"
 		defines "CS_RELEASE"
+		buildoptions "MD"
 		optimize "On"
 
 	filter "configurations:Dist"
 		defines "CS_Dist"
+		buildoptions "MD"
 		optimize "On"
 
 project "sandbox"
@@ -106,12 +109,15 @@ project "sandbox"
 	
 	filter "configurations:Debug"
 		defines "CS_DEBUG"
+		buildoptions "/MDd"
 		symbols "On"
 
 	filter "configurations:Release"
 		defines "CS_RELEASE"
+		buildoptions "/MD"
 		optimize "On"
 
 	filter "configurations:Dist"
 		defines "CS_Dist"
+		buildoptions "/MD"
 		optimize "On"
